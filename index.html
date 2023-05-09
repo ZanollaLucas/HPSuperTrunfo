@@ -1,0 +1,43 @@
+<html>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<head>
+    <title>
+        Imersão Dev - Aula 09
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        
+        <h1 class="page-title">Clube dos Duelos</h1>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+        <form id="form">
+          <h3>Escolha o atributo antes de Jogar</h3>
+            <div class="wrapper">
+                <div id="placar"></div>
+                <div id="quantidade-cartas"></div>
+                <div id="resultado"></div>
+                <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+                <div class="botoes"><button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                    disabled="false">Jogar</button>
+               <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima
+                 rodada</button> </div>
+        </form>
+    </div>
+        <iframe width="10%" height="80" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/430111&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tfrady" title="tfrady" target="_blank" style="color: #cccccc; text-decoration: none;">tfrady</a> · <a href="https://soundcloud.com/tfrady/harry-potter-soundtrack-hedwigs-theme" title="Harry Potter Soundtrack - Hedwigs Theme" target="_blank" style="color: #cccccc; text-decoration: none;">Harry Potter Soundtrack - Hedwigs Theme</a></div>
+     <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src='https://unpkg.com/react@16/umd/react.production.min.js' crossorigin></script>
+  <script src='https://unpkg.com/react-dom@16/umd/react-dom.production.min.js' crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src='script.js'></script>
+</body>
+</body>
+
+</html>
