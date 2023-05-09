@@ -72,7 +72,7 @@ const cartas = [
   }
 }, {
   nome: "Gellert Grindelwald",
-  imagem: "https://naoseinada.com.br/wp-content/uploads/2020/11/grindelwald-animais-fantasticos-sitenaoseinada.jpg",
+  imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9z20zxTGoqf4gQ-kQArNcepbfzYiCiJ5ibg&usqp=CAU", 
   atributos:{
   Inteligencia: 9.5,
   Habilidade: 10,
@@ -99,7 +99,7 @@ const cartas = [
 }
 }, {
   nome: "Rubeus Hagrid",
-  imagem: "https://blogdotiowalter.com.br/wp-content/uploads/2019/05/Universal-Orlando-Resorts-Most-Life-Like-Animated-Figure-Hagrid-1170x731.jpg",
+  imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuXueO69sPQAKgjPzdB89DREamKiooWxX6FQ&usqp=CAU",
   atributos:{
   Inteligencia: 6.5,
   Habilidade: 4.5,
