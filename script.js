@@ -9,7 +9,7 @@ const cartas = [
   }
 }, {
   nome: "Dobby, the houseelf",
-  imagem: "https://i.ytimg.com/vi/4JUZsRXvI4w/maxresdefault.jpg",
+  imagem: "https://www.merkur.de/bilder/2022/05/05/91524999/28806780-harry-potter-and-the-chamber-of-secrets-dobby-the-house-elf-2002-warner-brothers-courtesy-everett-collection-warn-2ACuQqUYwKe9.jpg",
   atributos:{
   Inteligencia: 4,
   Habilidade: 10,
